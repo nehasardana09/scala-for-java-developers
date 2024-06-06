@@ -6,7 +6,7 @@ case class Number(n: Int) extends MyData
 
 object ScalaData{
   @main
-  def run(): Unit = {
+  def run2(): Unit = {
     val dataList: List[MyData] = List(Text("hello"), Number(10), Text("world"), Number(20))
 
     val sumNumbers = dataList.map {

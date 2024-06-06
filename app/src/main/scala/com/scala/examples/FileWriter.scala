@@ -1,14 +1,8 @@
 package com.scala.examples
 
+import java.nio.file.{Files, Paths, StandardOpenOption}
+import java.nio.charset.StandardCharsets
+
 object FileWriter {
-
-  @main
-  def run(): Unit = {
-    writeToFile("Hello World to Scala3!")
-  }
-
-  def writeToFile(content: String) = {
-    //write file writer code
-  }
 
 }
