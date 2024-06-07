@@ -9,3 +9,6 @@ object CaseClassExample {
     println(s"Book title: ${book.title}, Author: ${book.author}")
   }
 }
+
+
+//Companion Objects
