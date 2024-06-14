@@ -4,8 +4,7 @@ object Examples {
   opaque type UserID = Int // Opaque type alias
   def getUserId: UserID = 12345 //Opaque type
 
-  @main
-  def run(): Unit = {
+  @main def run(): Unit = {
     // Optional braces
     def add(x: Int, y: Int): Int = x + y
 
